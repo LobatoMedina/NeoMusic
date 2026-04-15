@@ -1,0 +1,30 @@
+{
+  "name": "neomusic",
+  "version": "1.0.0",
+  "description": "An streaming audio platform development only for academic homework",
+  "keywords": [
+    "Sass",
+    "Spring",
+    "java-25",
+    "java",
+    "maven"
+  ],
+  "homepage": "https://github.com/LobatoMedina/NeoMusic#readme",
+  "bugs": {
+    "url": "https://github.com/LobatoMedina/NeoMusic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LobatoMedina/NeoMusic.git"
+  },
+  "license": "ISC",
+  "author": "Lobato Medina Luis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "dependencies": {
+    "sass": "^1.99.0"
+  }
+}
