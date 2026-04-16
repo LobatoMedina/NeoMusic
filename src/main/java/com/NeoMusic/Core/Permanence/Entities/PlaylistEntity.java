@@ -2,6 +2,7 @@ package com.NeoMusic.Core.Permanence.Entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,6 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
+@Builder
 public class PlaylistEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
