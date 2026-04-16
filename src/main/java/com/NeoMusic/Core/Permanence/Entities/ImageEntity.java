@@ -1,22 +1,18 @@
 package com.NeoMusic.Core.Permanence.Entities;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="tbl_ope_discography")
+@Table(name="tbl_ope_image")
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
-public class Discography {
+public class ImageEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long discographyId;
-    private String discographyName;
-    private String discographyTypeId;
-
-
+    private Long imageId;
+    private String imageUrl;
 }

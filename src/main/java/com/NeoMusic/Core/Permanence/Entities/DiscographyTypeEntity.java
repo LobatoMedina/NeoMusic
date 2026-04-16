@@ -7,16 +7,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="tbl_ope_discography")
+@Table(name="tbl_cat_discography_type")
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
-public class Discography {
+public class DiscographyTypeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long discographyId;
-    private String discographyName;
-    private String discographyTypeId;
-
-
+    private Integer discographyTypeId;
+    private String discographyTypeName;
 }
