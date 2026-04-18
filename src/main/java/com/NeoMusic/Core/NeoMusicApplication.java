@@ -1,4 +1,4 @@
-package com.NeoMusic.NeoMusic;
+package com.NeoMusic.Core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
